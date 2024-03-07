@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.sign-in {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ 
+}
+
+#submit-button {
+    background-color: #3399ff;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+#submit-button:hover {
+    background-color: #cce5ff; 
+}
